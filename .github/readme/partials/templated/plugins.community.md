@@ -311,7 +311,7 @@ Workflow examples from `examples.yml` are used as unit testing and to auto-gener
 It uses the same syntax as GitHub action and looks like below:
 ```yml
 - name: Test name
-  uses: lowlighter/metrics@latest
+  uses: mikey-/metrics@latest
   with:
     filename: metrics.plugin.{name}.svg
     token: ${{ secrets.METRICS_TOKEN }}

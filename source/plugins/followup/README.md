@@ -101,7 +101,7 @@ It helps knowing whether repositories are also maintained by other users and giv
 <!--examples-->
 ```yaml
 name: Opened on user's repositories
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.followup.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -111,7 +111,7 @@ with:
 ```
 ```yaml
 name: Opened by user
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.followup.user.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -122,7 +122,7 @@ with:
 ```
 ```yaml
 name: Indepth analysis
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.followup.indepth.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -133,7 +133,7 @@ with:
 ```
 ```yaml
 name: Exclude Archived
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.followup.archived.svg
   token: ${{ secrets.METRICS_TOKEN }}

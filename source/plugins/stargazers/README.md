@@ -151,7 +151,7 @@ Helps to avoid consuming too much Google Geocoding API requests while still bein
 <!--examples-->
 ```yaml
 name: Using classic charts
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.stargazers.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -161,7 +161,7 @@ with:
 ```
 ```yaml
 name: Using graph charts
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.stargazers.graph.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -172,7 +172,7 @@ with:
 ```
 ```yaml
 name: With worldmap
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.stargazers.worldmap.svg
   token: ${{ secrets.METRICS_TOKEN }}

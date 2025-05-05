@@ -72,7 +72,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 <!--examples-->
 ```yaml
 name: Current year calendar
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.calendar.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -82,7 +82,7 @@ with:
 ```
 ```yaml
 name: Full history calendar
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.calendar.full.svg
   token: ${{ secrets.METRICS_TOKEN }}

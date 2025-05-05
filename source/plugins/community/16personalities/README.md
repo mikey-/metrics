@@ -95,7 +95,7 @@ Login with the generated password received in your mailbox and copy the link tha
 <!--examples-->
 ```yaml
 name: MBTI Personality profile
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.16personalities.svg
   token: ${{ secrets.METRICS_TOKEN }}

@@ -1,5 +1,5 @@
 - name: Example
-  uses: lowlighter/metrics@latest
+  uses: mikey-/metrics@latest
   with:
     template: markdown
     filename: metrics.markdown.md
@@ -12,7 +12,7 @@
       committer_branch: examples
 
 - name: Example with plugins configuration for embed use
-  uses: lowlighter/metrics@latest
+  uses: mikey-/metrics@latest
   with:
     template: markdown
     filename: metrics.markdown.full.md
@@ -41,7 +41,7 @@
       committer_branch: examples
 
 - name: Example (pdf output)
-  uses: lowlighter/metrics@latest
+  uses: mikey-/metrics@latest
   with:
     template: markdown
     filename: metrics.markdown.pdf

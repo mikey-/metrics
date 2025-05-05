@@ -1,5 +1,5 @@
 - name: 🗂️ GitHub projects - Project from a repository
-  uses: lowlighter/metrics@latest
+  uses: mikey-/metrics@latest
   with:
     token: MOCKED_TOKEN
     plugin_projects: 'yes'

@@ -73,7 +73,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: mikey-/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 ```

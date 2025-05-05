@@ -1,5 +1,5 @@
 - name: Using a community template
-  uses: lowlighter/metrics@latest
+  uses: mikey-/metrics@latest
   with:
     token: ${{ secrets.METRICS_TOKEN }}
     template: "@classic"
@@ -9,7 +9,7 @@
       - action
 
 - name: Using a trusted community template
-  uses: lowlighter/metrics@latest
+  uses: mikey-/metrics@latest
   with:
     token: ${{ secrets.METRICS_TOKEN }}
     template: "@terminal"

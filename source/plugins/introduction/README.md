@@ -63,7 +63,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 <!--examples-->
 ```yaml
 name: Organization introduction
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.introduction.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -74,7 +74,7 @@ with:
 ```
 ```yaml
 name: Repository introduction
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.introduction.repository.svg
   token: ${{ secrets.METRICS_TOKEN }}

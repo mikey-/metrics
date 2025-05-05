@@ -18,7 +18,7 @@ These templates will be downloaded through git and will be usable by prefixing t
 
 *Example: using `my-theme` template by downloading it from `user/repo`*
 ```yml
-- uses: lowlighter/metrics@latest
+- uses: mikey-/metrics@latest
   with:
     template: "@my-theme"
     setup_community_templates: "user/repo@main:my-theme"
@@ -29,7 +29,7 @@ If you trust a community template, append `+trust` to it.
 
 *Example: using and trusting `my-theme` template by downloading it from `user/repo`*
 ```yml
-- uses: lowlighter/metrics@latest
+- uses: mikey-/metrics@latest
   with:
     template: "@my-theme"
     setup_community_templates: "user/repo@main:my-theme+trust"
@@ -41,7 +41,7 @@ Some templates may accept additional custom parameters that can be passed throug
 
 *Example: using and trusting `my-theme` template by downloading it from `user/repo`*
 ```yaml
-- uses: lowlighter/metrics@latest
+- uses: mikey-/metrics@latest
   with:
     template: "@my-theme"
     query: |
@@ -55,7 +55,7 @@ Some templates may accept additional custom parameters that can be passed throug
 <!--examples-->
 ```yaml
 name: Using a community template
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   token: ${{ secrets.METRICS_TOKEN }}
   template: "@classic"
@@ -64,7 +64,7 @@ with:
 ```
 ```yaml
 name: Using a trusted community template
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   token: ${{ secrets.METRICS_TOKEN }}
   template: "@terminal"

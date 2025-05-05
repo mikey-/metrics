@@ -1,5 +1,5 @@
 - name: Project from a repository
-  uses: lowlighter/metrics@latest
+  uses: mikey-/metrics@latest
   with:
     filename: metrics.plugin.projects.svg
     token: ${{ secrets.METRICS_TOKEN_WITH_SCOPES }}

@@ -1,5 +1,5 @@
 - name: 📘 Repository template - Example
-  uses: lowlighter/metrics@latest
+  uses: mikey-/metrics@latest
   with:
     template: repository
     token: MOCKED_TOKEN

@@ -158,7 +158,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 <!--examples-->
 ```yaml
 name: Featured star list
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.starlists.svg
   token: NOT_NEEDED
@@ -170,7 +170,7 @@ with:
 ```
 ```yaml
 name: Featured star list languages
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.starlists.languages.svg
   token: NOT_NEEDED

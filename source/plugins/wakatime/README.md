@@ -170,7 +170,7 @@ Then setup [WakaTime plugins](https://wakatime.com/plugins) to be ready to go!
 <!--examples-->
 ```yaml
 name: WakaTime
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.wakatime.svg
   token: NOT_NEEDED

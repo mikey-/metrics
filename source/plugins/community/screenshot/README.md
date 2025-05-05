@@ -137,7 +137,7 @@
 <!--examples-->
 ```yaml
 name: XKCD of the day
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.screenshot.svg
   token: NOT_NEEDED

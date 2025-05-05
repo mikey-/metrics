@@ -112,7 +112,7 @@ Create an app from the [developer dashboard](https://developer.twitter.com/en/po
 <!--examples-->
 ```yaml
 name: Latest tweets
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.tweets.svg
   token: NOT_NEEDED
@@ -124,7 +124,7 @@ with:
 ```
 ```yaml
 name: Latest tweets including attachments
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.tweets.attachments.svg
   token: NOT_NEEDED

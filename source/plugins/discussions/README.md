@@ -73,7 +73,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 <!--examples-->
 ```yaml
 name: GitHub Discussions
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.discussions.svg
   token: ${{ secrets.METRICS_TOKEN }}

@@ -127,7 +127,7 @@ Check out the instructions there.
 
 <!--examples-->
 ```yaml
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   token: NOT_NEEDED
   plugin_nightscout: yes

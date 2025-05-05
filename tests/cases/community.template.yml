@@ -1,5 +1,5 @@
 - name: 📕 Community templates - Using a community template
-  uses: lowlighter/metrics@latest
+  uses: mikey-/metrics@latest
   with:
     token: MOCKED_TOKEN
     template: "@classic"
@@ -9,7 +9,7 @@
   modes:
     - action
 - name: 📕 Community templates - Using a trusted community template
-  uses: lowlighter/metrics@latest
+  uses: mikey-/metrics@latest
   with:
     token: MOCKED_TOKEN
     template: "@terminal"

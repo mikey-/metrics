@@ -318,7 +318,7 @@ https://music.youtube.com/playlist?list=********
 <!--examples-->
 ```yaml
 name: Apple Music - Random track from playlist
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.music.playlist.svg
   token: NOT_NEEDED
@@ -330,7 +330,7 @@ with:
 ```
 ```yaml
 name: Spotify - Random track from playlist
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.music.playlist.spotify.svg
   token: NOT_NEEDED
@@ -341,7 +341,7 @@ with:
 ```
 ```yaml
 name: Spotify - Recently listed
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.music.recent.svg
   token: NOT_NEEDED
@@ -355,7 +355,7 @@ with:
 ```
 ```yaml
 name: Spotify - Top tracks
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   token: NOT_NEEDED
   base: ""
@@ -369,7 +369,7 @@ with:
 ```
 ```yaml
 name: Spotify - Top artists
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   token: NOT_NEEDED
   base: ""
@@ -383,7 +383,7 @@ with:
 ```
 ```yaml
 name: Youtube Music - Random track from playlist
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   token: NOT_NEEDED
   base: ""
@@ -394,7 +394,7 @@ with:
 ```
 ```yaml
 name: Youtube Music - Recently listed
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   token: NOT_NEEDED
   base: ""
@@ -406,7 +406,7 @@ with:
 ```
 ```yaml
 name: Last.fm  - Recently listed
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   token: NOT_NEEDED
   base: ""

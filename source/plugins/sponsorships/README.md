@@ -80,7 +80,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 <!--examples-->
 ```yaml
 name: 💝 GitHub Sponsorships
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.sponsorships.svg
   token: ${{ secrets.METRICS_TOKEN_PERSONAL }}

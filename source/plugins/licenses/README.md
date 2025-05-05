@@ -134,7 +134,7 @@ with:
 ```
 ```yaml
 name: Licenses with open-source ratio graphs
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.licenses.ratio.svg
   token: ${{ secrets.METRICS_TOKEN }}

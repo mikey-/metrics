@@ -152,7 +152,7 @@ For each of the above, a badge is awarded. Its color and progress depends of the
 <!--examples-->
 ```yaml
 name: Contributions
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.notable.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -162,7 +162,7 @@ with:
 ```
 ```yaml
 name: Indepth analysis
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.notable.indepth.svg
   token: ${{ secrets.METRICS_TOKEN }}

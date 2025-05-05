@@ -121,7 +121,7 @@ Create token and store it in your secrets:
 <!--examples-->
 ```yaml
 name: Last chess game from lichess.org
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.chess.svg
   token: NOT_NEEDED

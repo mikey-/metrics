@@ -143,7 +143,7 @@ Using this mode significantly increase file size as each frame is encoded separa
 <!--examples-->
 ```yaml
 name: GitHub Skyline
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.skyline.svg
   token: NOT_NEEDED
@@ -156,7 +156,7 @@ with:
 ```
 ```yaml
 name: GitHub City
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.skyline.city.svg
   token: NOT_NEEDED

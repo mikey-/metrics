@@ -228,7 +228,7 @@ jobs:
     needs: [ update-latest ]
     steps:
       - name: Run tests
-        uses: lowlighter/metrics@latest
+        uses: mikey-/metrics@latest
         with:
           token: MOCKED_TOKEN
           plugins_errors_fatal: yes

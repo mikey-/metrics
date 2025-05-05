@@ -120,7 +120,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 <!--examples-->
 ```yaml
 name: Top answers from stackoverflow
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.stackoverflow.svg
   token: NOT_NEEDED

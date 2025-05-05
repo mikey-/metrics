@@ -113,7 +113,7 @@ Be sure to tick `Track project progress` in project settings to display a progre
 
 *Example: include a project repository*
 ```yml
-- uses: lowlighter/metrics@latest
+- uses: mikey-/metrics@latest
   with:
     plugin_projects: yes
     plugin_projects_repositories: lowlighter/metrics/projects/1
@@ -124,7 +124,7 @@ Be sure to tick `Track project progress` in project settings to display a progre
 <!--examples-->
 ```yaml
 name: Project from a repository
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.projects.svg
   token: ${{ secrets.METRICS_TOKEN_WITH_SCOPES }}

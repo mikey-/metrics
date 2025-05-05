@@ -31,7 +31,7 @@ If the token owner is not the repository owner, then the `user` option must be s
 
 *Example: render `lowlighter/metrics` repository*
 ```yml
-- uses: lowlighter/metrics@latest
+- uses: mikey-/metrics@latest
   with:
     template: repository
     user: lowlighter
@@ -43,7 +43,7 @@ If the token owner is not the repository owner, then the `user` option must be s
 <!--examples-->
 ```yaml
 name: Example
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   template: repository
   filename: metrics.repository.svg

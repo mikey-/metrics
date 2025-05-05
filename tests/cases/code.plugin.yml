@@ -1,5 +1,5 @@
 - name: ♐ Random code snippet - JavaScript or TypeScript snippet of the day
-  uses: lowlighter/metrics@latest
+  uses: mikey-/metrics@latest
   with:
     token: MOCKED_TOKEN
     plugin_code: 'yes'

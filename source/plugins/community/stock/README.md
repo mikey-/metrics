@@ -123,7 +123,7 @@ Create a [RapidAPI account](https://rapidapi.com) and subscribe to [Yahoo Financ
 <!--examples-->
 ```yaml
 name: Stock prices from Tesla
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.stock.svg
   token: NOT_NEEDED

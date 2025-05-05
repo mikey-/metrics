@@ -1,5 +1,5 @@
 - name: 🌟 Recently starred repositories - Recently starred
-  uses: lowlighter/metrics@latest
+  uses: mikey-/metrics@latest
   with:
     token: MOCKED_TOKEN
     plugin_stars: 'yes'

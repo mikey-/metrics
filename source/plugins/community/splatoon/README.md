@@ -184,7 +184,7 @@ Data are fetched using [spacemeowx2/s3si.ts](https://github.com/spacemeowx2/s3si
 <!--examples-->
 ```yaml
 name: Splatnet data
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.splatoon.svg
   token: NOT_NEEDED
@@ -195,7 +195,7 @@ with:
 ```
 ```yaml
 name: Splatnet data with stat.ink integration
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.splatoon.svg
   token: NOT_NEEDED

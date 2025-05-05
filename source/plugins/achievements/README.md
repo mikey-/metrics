@@ -129,7 +129,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 <!--examples-->
 ```yaml
 name: Detailed display
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.achievements.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -140,7 +140,7 @@ with:
 ```
 ```yaml
 name: Compact display
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.achievements.compact.svg
   token: ${{ secrets.METRICS_TOKEN }}

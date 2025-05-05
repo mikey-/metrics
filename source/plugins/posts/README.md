@@ -107,7 +107,7 @@
 <!--examples-->
 ```yaml
 name: Recent posts
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.posts.svg
   token: NOT_NEEDED
@@ -118,7 +118,7 @@ with:
 ```
 ```yaml
 name: Recent posts with descriptions and cover images
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.posts.full.svg
   token: NOT_NEEDED

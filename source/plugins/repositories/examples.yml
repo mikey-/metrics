@@ -1,5 +1,5 @@
 - name: Featured repositories
-  uses: lowlighter/metrics@latest
+  uses: mikey-/metrics@latest
   with:
     filename: metrics.plugin.repositories.svg
     token: ${{ secrets.METRICS_TOKEN }}
@@ -8,7 +8,7 @@
     plugin_repositories_featured: lowlighter/metrics
 
 - name: Pinned repositories
-  uses: lowlighter/metrics@latest
+  uses: mikey-/metrics@latest
   with:
     filename: metrics.plugin.repositories.pinned.svg
     token: ${{ secrets.METRICS_TOKEN }}

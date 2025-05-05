@@ -106,7 +106,7 @@ All product and company names are trademarks™ or registered® trademarks of th
 <!--examples-->
 ```yaml
 name: Sponsors goal
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.sponsors.svg
   token: ${{ secrets.METRICS_TOKEN_PERSONAL }}
@@ -118,7 +118,7 @@ with:
 ```
 ```yaml
 name: Sponsors introduction
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.sponsors.full.svg
   token: ${{ secrets.METRICS_TOKEN_WITH_SCOPES }}

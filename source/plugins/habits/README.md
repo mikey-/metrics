@@ -178,7 +178,7 @@ Configure `config_timezone` (see [supported timezone](https://en.wikipedia.org/w
 
 *Example: configuring timezone*
 ```yaml
-- uses: lowlighter/metrics@latest
+- uses: mikey-/metrics@latest
   with:
     config_timezone: Europe/Paris
 ```
@@ -188,7 +188,7 @@ Configure `config_timezone` (see [supported timezone](https://en.wikipedia.org/w
 <!--examples-->
 ```yaml
 name: Mildly interesting facts
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.habits.facts.svg
   token: ${{ secrets.METRICS_TOKEN }}
@@ -201,7 +201,7 @@ with:
 ```
 ```yaml
 name: Recent activity charts
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.plugin.habits.charts.svg
   token: ${{ secrets.METRICS_TOKEN }}

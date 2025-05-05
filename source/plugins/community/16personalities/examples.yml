@@ -1,5 +1,5 @@
 - name: MBTI Personality profile
-  uses: lowlighter/metrics@latest
+  uses: mikey-/metrics@latest
   with:
     filename: metrics.plugin.16personalities.svg
     token: ${{ secrets.METRICS_TOKEN }}

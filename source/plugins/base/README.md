@@ -205,7 +205,7 @@ Broad affiliations will result in less representative metrics.</p>
 <!--examples-->
 ```yaml
 name: Default metrics
-uses: lowlighter/metrics@latest
+uses: mikey-/metrics@latest
 with:
   filename: metrics.base.svg
   token: ${{ secrets.METRICS_TOKEN }}

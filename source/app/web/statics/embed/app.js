@@ -246,7 +246,7 @@
           `    permissions:`,
           `      contents: write`,
           `    steps:`,
-          `      - uses: lowlighter/metrics@latest`,
+          `      - uses: mikey-/metrics@latest`,
           `        with:`,
           ...(this.scopes.size
             ? [
